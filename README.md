@@ -32,20 +32,4 @@ A full-stack web application for managing employees. Built using **Spring Boot**
 
 ## 📂 Project Structure
 
-employee-management-system-fullstack/
-├── backend/ (Spring Boot)
-│ ├── controller/
-│ ├── dto/
-│ ├── exception/
-│ ├── model/
-│ ├── repository/
-│ ├── service/
-│ └── EmployeeManagementApplication.java
-│
-├── frontend/ (React)
-│ ├── components/
-│ ├── App.jsx
-│ ├── main.jsx
-│ └── index.css
-│
-└── README.md
+<pre> employee-management-system-fullstack/ ├── backend/ # Spring Boot backend │ ├── src/ │ │ └── main/ │ │ └── java/ │ │ └── org/institute/employee_management/ │ │ ├── controller/ │ │ ├── dto/ │ │ ├── exception/ │ │ ├── model/ │ │ ├── repository/ │ │ ├── service/ │ │ └── EmployeeManagementApplication.java │ └── resources/ │ ├── application.properties │ └── static/ ├── frontend/ # React frontend (Vite) │ ├── public/ │ ├── src/ │ │ ├── components/ │ │ │ ├── ListEmployeeComponent.jsx │ │ │ ├── HeaderComponent.jsx │ │ │ └── FooterComponent.jsx │ │ ├── App.jsx │ │ └── main.jsx │ └── index.html └── README.md </pre>
